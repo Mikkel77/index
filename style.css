@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    font-family: system-ui;
+}
+
+/* background for the website */
+.container{
+    width: 1920px;
+    height: 953px;
+    background-image:linear-gradient(
+        lightgray 0%,
+        lightgray 20%,
+        gray 25%,
+        gray 100%
+      );
+    background-repeat: no-repeat;    
+}
+
+
+.search{
+    --padding: 14px;
+    width:max-content;
+    display: flex;
+    align-items: center;
+    padding:var(--padding);
+    border-radius: 28px;
+    background: #f6f6f6;
+}
+
+
+.search-input{
+    font-size: 16px;
+    font-family: 'lexend', sans-serif;
+    color: #333333;
+margin-left: var(--padding);
+outline: none;
+background: transparent;
+flex: 1;
+}
